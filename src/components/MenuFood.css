@@ -1,0 +1,57 @@
+
+.cards div{
+    position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  background: rgba(111, 114, 112, 0.233);
+  padding: 5px;
+  border-radius: 10px;
+}
+.cards div:hover{
+  box-shadow: 0 0 10 px 0 #fff;
+  }
+  .cards div img{
+      width: 240px;
+      height: 200px;
+
+  }
+  .cards div .product-name{
+      font-variant: small-caps;
+      font-size: 17px;
+      font-weight: 500px;
+  }
+  .cards div .product-details{
+      color: dodgerblue;
+  }
+  .cards div p{
+      
+      font-family: sans-serif;
+      font-size: 13px;	
+      color: #000;	}
+  .cards div  span{
+      text-transform: initial;
+      font-size: 10px;
+      color: #000;
+  }
+  .cards div h1{		
+      color: #333333;
+      font-size: 15px;
+      color: green;
+      font-family: sans-serif;
+      height: auto;
+  }
+  .cards div h3{
+      color:green;
+  }
+  .price{
+      color: orange;
+
+  }
+
+
+span .checked {
+font-size: 19px;
+color: orange;
+/* border: solid green; */
+}

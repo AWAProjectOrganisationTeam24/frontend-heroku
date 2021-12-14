@@ -1,0 +1,9 @@
+.RestaurantScreen{
+    display: flex;
+    position: absolute;
+    flex: center;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+

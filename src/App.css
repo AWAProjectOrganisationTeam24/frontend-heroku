@@ -1,0 +1,47 @@
+
+.header a {
+  text-align: left;
+  font-size: 30px;
+  text-decoration: none;
+  color:black;
+  display:block;
+  width:160px;
+  height:30px;
+}
+
+.rowbox{
+  margin-top: 2px;
+  margin: 4px;
+
+  
+}
+.column {
+  
+  margin: 2px;
+  margin-left: 25px;
+  
+  float: left;
+  width: 30.33%;
+  padding: 8px;
+  height: 500px; 
+}
+
+.rowbox:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.cart {
+  flex-direction: row;
+}
+.cart img {
+  width: 30%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
