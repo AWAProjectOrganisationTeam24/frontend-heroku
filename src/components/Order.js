@@ -56,7 +56,7 @@ function Order(props) {
                 const time = d.getHours() + ':'+ d.getMinutes() + ':'+ d.getSeconds();
 
 
-                const url = `http://localhost:5000/orders/add-order/${params.id_restaurant}/${params.id}`
+                const url = `https://limitless-escarpment-21335.herokuapp.com/orders/add-order/${params.id_restaurant}/${params.id}`
                 axios.post( url, {
                     price: price,
                     time: time,

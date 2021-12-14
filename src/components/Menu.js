@@ -9,7 +9,7 @@ import Basket from './Shoppingcart';
 import axios from "axios";
 import {useParams} from "react-router";
 import {UserAuthContext} from "./Contexts";
-
+import Constants from "./Constants.json";
 
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
 
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/products/restaurant/${params.id_restaurant}`)
+    axios.get(Constants.API_ADDRESS + `/products/restaurant/${params.id_restaurant}`)
         .then(res => {
           const data = res.data;
           setProducts(data);

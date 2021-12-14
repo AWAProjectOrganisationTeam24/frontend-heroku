@@ -1,9 +1,9 @@
-
 import React, { useState } from 'react';
 import axios from "axios";
 import styles from '../components/Login.module.css';
 import {useNavigate, useParams} from "react-router";
 import {Link} from "react-router-dom";
+import Constants from "../components/Constants.json";
 
 
 function ProductMaker() {
@@ -45,7 +45,7 @@ function ProductMaker() {
 
         try {
             //sending to database
-            const res = await axios.post(`http://localhost:5000/products/add-product/${params.id_restaurant}`, formData);
+            const res = await axios.post(Constants.API_ADDRESS + `/products/add-product/${params.id_restaurant}`, formData);
             console.log(res);
             console.log('product added to menu!');
             navigate(`/profile/${params.id_customer}`, {replace: true});

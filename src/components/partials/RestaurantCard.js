@@ -8,7 +8,7 @@ function ProductCard({ id_restaurant, restaurantsName, location, address, status
   return (
     <div>
       <div className="card mt-4">
-        <img className="card-img-top" src={`http://localhost:5000/images/restaurants/${image}`} alt="cap1" />
+        <img className="card-img-top" src={`https://limitless-escarpment-21335.herokuapp.com/images/restaurants/${image}`} alt="cap1" />
         <div className="card-body">
           <h5 className="card-title">{restaurantsName}</h5>
           <i className="fas fa-solid fa-map-marker-alt"></i>

@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eefb8389-9351-442d-9c43-32c57374c5de" name="Default Changelist" comment="">
+    <list default="true" id="9cd15d5d-c7b6-42bf-9f95-d478b468a897" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Constants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Constants.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CreateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FoodNotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FoodNotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuFood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuFood.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/RestaurantProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/RestaurantProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/partials/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partials/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/partials/RestaurantCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partials/RestaurantCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageMakers/ProductMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageMakers/ProductMaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageMakers/RestaurantMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageMakers/RestaurantMaker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="21gRrtKwHL4TA9kBs00Vhs9fpz8" />
+  <component name="ProjectId" id="22HxAEze4ryh1Ui33AM2ZP0Pqc6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,39 +38,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PEF\3. semestr ERASMUS\AWA\project\Frontend\src\components\Profile" />
-      <recent name="D:\PEF\3. semestr ERASMUS\AWA\project\Frontend\src\components" />
-      <recent name="D:\PEF\3. semestr ERASMUS\AWA\project\Frontend" />
-      <recent name="D:\PEF\3. semestr ERASMUS\AWA\project\Frontend\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PEF\3. semestr ERASMUS\AWA\project\Frontend\src\components" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eefb8389-9351-442d-9c43-32c57374c5de" name="Default Changelist" comment="" />
-      <created>1638360947689</created>
+      <changelist id="9cd15d5d-c7b6-42bf-9f95-d478b468a897" name="Default Changelist" comment="" />
+      <created>1639508168847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638360947689</updated>
-      <workItem from="1638360951074" duration="145000" />
-      <workItem from="1638534190817" duration="3780000" />
-      <workItem from="1638808779484" duration="38000" />
-      <workItem from="1638808819772" duration="15180000" />
-      <workItem from="1638878313275" duration="58111000" />
-      <workItem from="1639051154008" duration="2040000" />
-      <workItem from="1639320032487" duration="9399000" />
+      <updated>1639508168847</updated>
+      <workItem from="1639508170355" duration="1957000" />
     </task>
     <servers />
   </component>
@@ -86,6 +67,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

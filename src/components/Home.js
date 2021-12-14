@@ -7,6 +7,7 @@ import FoodNotFound from "./FoodNotFound";
 import axios from "axios";
 import {useParams} from "react-router";
 //import {UserAuthContext} from "./Contexts";
+import Constants from "./Constants.json";
 
 function Home(props) {
     //const UserAuthContextValue = useContext(UserAuthContext);
@@ -24,7 +25,7 @@ function Home(props) {
 
     // call the data from api
     const getRestaurants = () => {
-        axios.get(`http://localhost:5000/`)
+        axios.get(Constants.API_ADDRESS)
             .then(res => {
                 const data = res.data;
                 setItems(data);

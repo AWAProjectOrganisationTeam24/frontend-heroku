@@ -2,6 +2,7 @@ import React, {useState}  from 'react'
 // import styles from './RestaurantMaker.module.css' using bootstrap
 import axios from "axios";
 import {useNavigate, useParams} from "react-router";
+import Constants from "../components/Constants.json";
 
 
 function RestaurantMaker() {
@@ -50,7 +51,7 @@ function RestaurantMaker() {
         }
             try {
             //sending to database
-                const res = await axios.post(`http://localhost:5000/add-restaurant/${params.id}`, formData);
+                const res = await axios.post(Constants.API_ADDRESS +`/add-restaurant/${params.id}`, formData);
                 console.log(res);
                 console.log('restaurant registered!');
                 navigate(`/profile/${params.id_customer}`, {replace: true});

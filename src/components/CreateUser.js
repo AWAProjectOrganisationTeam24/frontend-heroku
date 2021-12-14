@@ -1,6 +1,7 @@
 import React  from 'react';
 import axios from "axios";
 import styles from './Login.module.css';
+import Constants from "./Constants.json";
 
 function CreateUser() {
     const [state, setState] = React.useState({
@@ -24,7 +25,7 @@ function CreateUser() {
 
         //send it to backend + ensure if goes bad
         //get response from backend - after login show homepage
-        axios.post("http://localhost:5000/register", {
+        axios.post(Constants.API_ADDRESS + "/register", {
             firstname: state.firstname,
             lastname: state.lastname,
             mail: state.mail,

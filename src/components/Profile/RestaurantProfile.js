@@ -5,6 +5,7 @@ import {useParams} from "react-router";
 import React, {useEffect, useContext} from "react";
 import Header from "../partials/Header";
 import {UserAuthContext} from "../Contexts";
+import Constants from "../Constants.json";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     const UserAuthContextValue = useContext(UserAuthContext);
 
   useEffect(() => {
-      axios.get(`http://localhost:5000/view-restaurant/${params.id_manager}`, {
+      axios.get( Constants.API_ADDRESS + `/view-restaurant/${params.id_manager}`, {
           headers: {
               'Content-Type': 'application/json',
               'Authorization': 'Bearer ' + UserAuthContextValue.jwt
